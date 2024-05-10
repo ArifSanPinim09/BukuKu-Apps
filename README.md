@@ -1,16 +1,18 @@
-# BukuKu-Apps
+#BukuKu-Apps
 
-A new Flutter project.
+BukuKu-Apps adalah aplikasi yang memungkinkan pengguna untuk mengakses, mengunggah, dan membaca berbagai buku digital. Dengan fitur login menggunakan akun Google, pengguna dapat mengelola koleksi buku mereka dengan mudah.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+#Fitur
+*Autentikasi Google: Pengguna dapat masuk ke aplikasi menggunakan akun Google mereka.
+*Unggah Buku: Pengguna dapat mengunggah buku digital ke aplikasi untuk disimpan dan diakses kembali.
+*Baca Buku: Aplikasi dilengkapi dengan PDF viewer yang memungkinkan pengguna untuk membaca buku secara langsung di aplikasi.
+*Pencarian dan Kategori: Pengguna dapat mencari buku berdasarkan kategori atau menggunakan fitur pencarian untuk menemukan buku yang mereka inginkan.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#Teknologi
+*Backend menggunakan Firebase Firestore: Data buku disimpan dan dikelola menggunakan layanan database cloud Firebase Firestore.
+*Autentikasi Firebase: Fitur login menggunakan akun Google dikelola oleh layanan autentikasi Firebase.
+*PDF Viewer: Buku ditampilkan menggunakan PDF viewer yang nyaman dan responsif.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
